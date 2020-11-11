@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(85, 70, 112);
+    background: linear-gradient (0deg, rgba(85,70,112,1) 0%, rgb(168, 145, 209, 1) 100%);
+    background-size: 100% 250%;
+    margin: 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 20px;
+}
+
+.navbar {
+    background-color: rgb(82, 82, 92);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item:hover {
+
+}
+
+#signup {
+
+}
+
+.white {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.margintop {
+    margin-top: 200px;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.border {
+    margin-left: 33%;
+    margin-right: 33%;
+    background: #94989c;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login {
+    background-color: #e05959;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  button:hover {
+    opacity: 0.5;
+  }
+
+  
+ 
